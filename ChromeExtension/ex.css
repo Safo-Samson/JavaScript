@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    min-width: 500px;
+}
+
+button{
+    background: #5f9341;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4xp;
+    padding: 5px;
+    border: 1px solid #5f9341 ;
+    font-weight: bold;
+}
+
+#delete-btn{
+    background: white;
+    color: #5f9341;
+}
+
+input{
+    border: 1px solid #5f9341;
+   /* padding-left: 10px; /*for the text in it*/
+    padding : 10px 10px 10px 10px;
+    width: 100%; /*for the input to take up full width*/
+    box-sizing: border-box; /* to ensure the width doesnt go past the browser size*/
+    
+}
+ul{
+    list-style-type: decimal;
+    padding-left: 1;
+}
+
+li{
+    
+}
+li a{ /* li a means this styling applies to only links in lists*/
+    color: #5f9341;
+}

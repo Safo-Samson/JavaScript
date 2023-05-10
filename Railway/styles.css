@@ -1,0 +1,90 @@
+body {
+    background-color: #e1ff7f;
+    height: auto;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: scroll;
+     
+}
+
+h1 {color:black; font-family: sans-serif}
+h2 {color:red; font-family: cursive}
+h3 {color:green; font-family: monospace}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#increment-btn {
+    background: darkred;
+    color: yellow;
+}
+
+#decrement-btn{
+    background: blue;
+    color: rgb(249, 240, 240);
+}
+
+
+#welcome-el{
+    background: violet;
+}
+#input-btn {
+    background: darkred;
+    color: yellow;
+}
+
+nav {
+   background-color: dimgrey;
+   opacity : 1.0;
+}
+
+p {color: blue;
+    font-size: medium;
+
+} /*colours all fonts in a paragraph to blue*/
+
+a:link {
+ color: blue;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:visited {
+ color: red;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:hover {
+ color: deeppink;
+ background-color: transparent;
+ text-decoration: underline;
+}
+a:active {
+ color: yellow;
+ background-color: transparent;
+ text-decoration: underline;
+}
+
+table, th, td{
+border: 2px groove white;
+border-collapse: collapse;
+background-color: #cce6de;
+border-radius: 15px;
+padding: 3px;
+text-align:center;
+border-bottom: 5px solid pink;
+overflow-x: auto; /* to navigate the table with horizontal scrolling tabs when the browser is resized*/
+
+               }
+tr:hover{
+background-color: #f80a0a;
+               }    
